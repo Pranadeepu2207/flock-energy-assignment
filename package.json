@@ -1,0 +1,31 @@
+{
+  "name": "flock-energy-api",
+  "version": "1.0.0",
+  "description": "Clean, documented REST API wrapper service over the legacy Urja Meter Ops portal",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "test": "node test/verify_endpoints.js"
+  },
+  "keywords": [
+    "flock-energy",
+    "urja-portal",
+    "rest-api",
+    "smart-meters",
+    "cheerio",
+    "scraper",
+    "adapter"
+  ],
+  "author": "Flock Energy Engineer",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "axios-cookiejar-support": "^5.0.5",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "swagger-ui-express": "^5.0.1",
+    "tough-cookie": "^6.0.0"
+  }
+}
